@@ -1,4 +1,4 @@
-# json-to-excel
+# json2xlsx
   A Generic Json to Excel Xlsx Sheet Converte Util
 
 # Usage:
