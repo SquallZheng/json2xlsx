@@ -155,7 +155,7 @@ options:
 }
 ```
 ✗ python3 json2xlsx.py input.json output.xlsx --dictKeyHeader=Predefined-Header-Col
-![image](https://github.com/user-attachments/assets/e30885b8-bf93-4127-b334-38f83eb0f694)
+![image](https://github.com/user-attachments/assets/ad84786e-d38f-451b-81b8-ae4dc4796130)
 
 # Limitation:
 If there are multiple lists exist in input json, they must be homogeneous in structures.
