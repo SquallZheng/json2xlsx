@@ -1,5 +1,5 @@
 # json2xlsx
-  A Generic Json to Excel Xlsx Sheet Converte Util
+  A Generic Json to Excel Xlsx Sheet Convert Util
 
 # Usage:
 python3 json2xlsx.py <input.json> <output.xlsx> [notMergeCell] [--dictKeyHeader]
