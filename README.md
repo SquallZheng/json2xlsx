@@ -154,7 +154,7 @@ options:
   }
 }
 ```
-✗ python3 json2xlsx.py input.json output.xlsx --dictKeyHeader=Predeined-Header-Col
+✗ python3 json2xlsx.py input.json output.xlsx --dictKeyHeader=Predefined-Header-Col
 ![image](https://github.com/user-attachments/assets/e30885b8-bf93-4127-b334-38f83eb0f694)
 
 # Limitation:
