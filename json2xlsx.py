@@ -22,8 +22,6 @@ def dfsDepth(depths, json):
     if type(json) is dict:
         for key, val in json.items():
             depth = max(depth, dfsDepth(depths, val))
-        if len(json.items()) > 0:
-            depth += 1
     elif type(json) is list:
         for elem in json:
             depth = max(depth, dfsDepth(depths, elem))
@@ -119,12 +117,10 @@ if __name__ == '__main__':
         description='json2xlsx commands'
     )
     parser.add_argument('jsonFile', type=str, help='Path of input json file')
-    parser.add_argument('outputFileName',type=str, help='Path of output xlsx file')
-    parser.add_argument('notMergeCell', action='store_true', help='False to prohibit merge continuous identical cell vertically')
+    parser.add_argument('outputFileName', type=str, help='Path of output xlsx file')
+    parser.add_argument('notMergeCell', action='store_false', help='False to prohibit merge continuous identical cell vertically')
     parser.add_argument('--dictKeyHeader', type=str, default=None, help='If input json is a dictionary, extract its key as content of specified header column')
     args = parser.parse_args()
     with open(args.jsonFile, 'r', encoding='utf-8') as f:
         jsonData = json.load(f)
         jsonToExcel(jsonData, args.outputFileName, not args.notMergeCell, args.dictKeyHeader)
-
-
