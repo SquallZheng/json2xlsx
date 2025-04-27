@@ -124,7 +124,7 @@ options:
 ```
 ✗ python3 json2xlsx.py test.json test.json.xlsx
 
-![image](https://github.com/user-attachments/assets/a903363a-14b2-4ad9-84ba-abb091bcbd65)
+![image](https://github.com/user-attachments/assets/fbdb789f-5140-49be-b30b-da935cf8401c)
 
 
 
