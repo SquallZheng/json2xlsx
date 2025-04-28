@@ -172,18 +172,16 @@ A counter exmaple is:
       "B": "VAL-B2"
     }
   ],
-  "list-2nd": {
-    "list2": [
-      {
-        "C": "VAL-C1",
-        "D": "VAL-D1"
-      },
-      {
-        "C": "VAL-C2",
-        "D": "VAL-D2"
-      }
-    ]
-  }
+  "list-2nd": [
+    {
+      "C": "VAL-C1",
+      "D": "VAL-D1"
+    },
+    {
+      "C": "VAL-C2",
+      "D": "VAL-D2"
+    }
+  ]
 }
 ```
 
