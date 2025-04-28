@@ -159,6 +159,33 @@ options:
 
 # Limitation:
 If there are multiple lists exist in input json, they must be homogeneous in structures.
+A counter exmaple is:
+```json
+{
+  "list-1st": [
+    {
+      "A": "VAL-A1",
+      "B": "VAL-B1"
+    },
+    {
+      "A": "VAL-A2",
+      "B": "VAL-B2"
+    }
+  ],
+  "list-2nd": {
+    "list2": [
+      {
+        "C": "VAL-C1",
+        "D": "VAL-D1"
+      },
+      {
+        "C": "VAL-C2",
+        "D": "VAL-D2"
+      }
+    ]
+  }
+}
+```
 
 
 
